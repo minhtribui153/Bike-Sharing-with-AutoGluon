@@ -1,0 +1,4 @@
+AutogluonModels
+.DS_Store
+divvy_tripdata/*
+chicago_weatherdata/*
