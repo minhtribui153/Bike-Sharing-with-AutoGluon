@@ -1,10 +1,10 @@
-# Bike rental prediction based on weather forecast with Autogluon
-> ⚠️ NOTE: It is recommended to run this project on a Conda environment.
+# Bike rental prediction based on weather forecast
+> ⚠️ NOTE: This independent, non-commercial project predicts the number of daily Divvy rides in Chicago from weather data collected from Visual Crossing. It uses daily ride counts derived from Divvy system data (used under the [Divvy Data License Agreement](https://divvybikes.com/data-license-agreement)) and is not affiliated with or endorsed by Divvy, Lyft, or the City of Chicago.
 
-This project uses Autogluon to help train all different kinds of models and find which model best suits the purpose for this bike rental prediction.
+This project trains all different kinds of models and finds which model best suits the purpose for this bike rental prediction.
 
-In this project, Autogluon will use L2 Regression (a.k.a Ridge Regression) to train the models.
-The models trained by Autogluon will predict Divvy's Bike Rental Dataset based on the weather forecast.
+In this project, we will use L2 Regression (a.k.a Ridge Regression) to train the models.
+The models trained will predict Divvy's Bike Rental Dataset based on the weather forecast.
 
 > If you would like to generate your own dataset, store the weather dataset by Visual Crossing into the `chicago_weatherdata` folder and the Divvy Bicycles trip dataset into the `divvy_tripdata` folder. After that, run the `create_dataset.sh` command.
 
@@ -13,7 +13,7 @@ The source code for the model prediction in the [Bike Rental Predictor](./Bike%2
 
 
 Here are the results you will get from this project:
-![Autogluon Models Leaderboard](./result/models_leaderboard.png)
+![Models Leaderboard](./result/models_leaderboard.png)
 
 ![Prediction Test Data Results](./result/prediction_test_result.png)
 
